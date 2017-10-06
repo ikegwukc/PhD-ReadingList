@@ -89,8 +89,15 @@ Cross validation &  regularization & other methods can be used to combat overfit
 
 Another problem in machine learning is the curse of dimensionality. Generalizing becomes exponentially harder as the dimensionality grows assuming the training size remains the same.
 
-*[I won't speak too mcuh about theoretical guarantees. The main concepts that I took from this section is that in practice you will not get a specific guarantee and it's quite easy to disprove because of the no free lunch theorm. The main role of theortivcal guarantees in machine learning is n used more as a source of understanding for algorithm design.]*
+*[I won't speak too much about theoretical guarantees. The main concepts that I took from this section is that in practice you will not get a specific guarantee and it's quite easy to disprove because of the no free lunch theorem. The main role of theorectical guarantees in machine learning is n used more as a source of understanding for algorithm design.]*
 
+Feature engineering is probably the most important factor. Nowadays feature engineering is becoming more automated.
+
+After you finish feature engineering and you select the best model possible you can either put more effeort into designing a clever algorithm. Or you can  throw more data at it. Simpler learners (parametric) may not be able to improve significantly given more data usually complex learners (non-parametric) are better.  However applying occam's razor try the simplest learners first then progress to complicated learners.
+
+Having many learners apply to the data is better than just one. Using boosting or bagging yields better results than just using one learner.
+
+Every function can be represented however that does not mean it can be learned also correlation does not imply causation.
 
 ----
 ## Application
