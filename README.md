@@ -1,4 +1,11 @@
 
+# PhD Reading List
+
+## Table of Contents
+
+- Foundational
+- Application
+- Tutorials
 
 ## Foundational
 #### [The Discipline of Machine Learning by Tom M Mitchell](http://www.cs.cmu.edu/~tom/pubs/MachineLearning.pdf)
