@@ -3,8 +3,8 @@
 
 ## Table of Contents
 
-- [Foundational
-  - [The Discipline of Machine Learning](https://github.com/ikegwukc/PhD-ReadingList#foundational)
+- [Foundational](https://github.com/ikegwukc/PhD-ReadingList#foundational)
+  - [The Discipline of Machine Learning](https://github.com/ikegwukc/PhD-ReadingList#the-discipline-of-machine-learning-by-tom-m-mitchell)
 - [Application](https://github.com/ikegwukc/PhD-ReadingList#application)
 - [Tutorials](https://github.com/ikegwukc/PhD-ReadingList#tutorials)
 
