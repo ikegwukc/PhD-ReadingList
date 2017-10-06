@@ -55,6 +55,11 @@ They're thousands of frameworks to follow however they all consist of combinatio
 - Optimization - A method to search among the classifiers in the potential representations for the highest-scoring one.  
 
 Here are examples for classifiers:  
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
 | Representation | Evaluation | Optimization |
 | -------------- | ---------- | ------------ |
 
