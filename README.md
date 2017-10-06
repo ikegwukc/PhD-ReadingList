@@ -5,14 +5,14 @@
 
 - [Foundational](https://github.com/ikegwukc/PhD-ReadingList#foundational)
   - [The Discipline of Machine Learning](https://github.com/ikegwukc/PhD-ReadingList#the-discipline-of-machine-learning-by-tom-m-mitchell)
-  - [A Few Useful Things to Know about Machine Learning]()
+  - [A Few Useful Things to Know about Machine Learning](https://github.com/ikegwukc/PhD-ReadingList#a-few-useful-things-to-know-about-machine-learning-by-pedro-domingos)
 - [Application](https://github.com/ikegwukc/PhD-ReadingList#application)
 - [Tutorials](https://github.com/ikegwukc/PhD-ReadingList#tutorials)
 
 ## Foundational
 
 ----
-##### [The Discipline of Machine Learning by Tom M Mitchell](http://www.cs.cmu.edu/~tom/pubs/MachineLearning.pdf)
+##### [The Discipline of Machine Learning by Tom M Mitchell](http://www.cs.cmu.edu/~tom/pubs/MachineLearning.pdf)  
 
 This document provides a brief and personal view of machine learning. Good to think of this paper as a foundational paper for machine learning.
 
@@ -38,8 +38,24 @@ Current Research Questions (2006+):
 - Can we design programming languages containing machine learning primitives? (LBJava?; SML?)
 - Will computer perception merge with machine learning?ZZ
 ----  
-----
-##### [A Few Useful Things to Know about Machine Learning by Pedro Domingos](https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf)
+
+##### [A Few Useful Things to Know about Machine Learning by Pedro Domingos](https://homes.cs.washington.edu/~pedrod/papers/cacm12.pdf)  
+**There a lot of useful gems in this paper **  
+Developing successful machine learning applications requires a substantial amount of "black art"  that is hard to find in textbooks. This article summarizes 12 lessons and multiple pitfalls to avoid for machine learning researchers and practictioners.  
+
+For this paper Pedro focuses on classification however any concept could be applied to another type of machine learning.
+
+```
+Question: With the bewildering variety of learning algorithms available how can you determine which one to use?
+```
+
+They're thousands of frameworks to follow however they all consist of combinations of the following 3 components:
+- Representation - A classifier (some model) being able to be represented in a formal lanaguage that a modern computer can handle.
+- Evaluation - An evaluation function that distingiushes a good model from a bad one.
+- Optimization - A method to search among the classifiers in the potential representations for the highest-scoring one.  
+
+| Representation | Evaluation | Optimization |
+| --- | --- | --- |
 
 ----
 ## Application
