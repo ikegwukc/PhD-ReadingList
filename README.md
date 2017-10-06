@@ -58,10 +58,38 @@ Here are examples for classifiers:
 
 | Representation | Evaluation | Optimization |
 | -------------- | ---------- | ------------ |
-| Knn | Accuracy / error rate | Greedy Search |  
+| KNN | Accuracy / error rate | Greedy Search |  
 | SVM             | Precision and recall | Beam Search Search |  
-| Decision trees  | Likelihood | Continous Optimization|  
+| Decision trees  | Likelihood | Continuous Optimization|  
 | Neural Networks | Cost / Utility | Gradient descent |  
+
+Most textbooks are organized by representation, and it's easy to overlook the fact that the other components are equally important.
+
+The fundamental goal of machine learning is to generalize beyond the examples in the training set. No matter how much data we have, it is very unlikely that we will see those exact examples again at test time.
+
+The most common mistake among machine learning beginners is to test on the training data and have the illusion of success. If the chosen classifier is then tested on new data it is often no better than random guessing. So if you hire someone hold out some data. If you are a practictioner hold out some data for testing. It is possible  to tune your data from the testing unattentionally.
+```
+Sort of my take on the above paragraph. Split into train and test. Then use cross validation on train. then finally test when ready.
+```
+
+We generally don't have access to the function we want to optimize we have you use an evaluation method on the training set and a surrogate for the testing set.
+
+
+*Unforunately*, every learner must embody some knowledge or assumuptions beyond the data to generalize beyond it. (No free Lunch theorem)
+
+Great analogy: Programming is a lot of work that involves building from scratch. However machine learning is similar to farmering where we let nature do most of the work. Farmers combine seeds with nuterients to grow crops. Learners combine knowledge with data to grow programs.
+
+If our knowledge and data we have are not sufficient to determine the correct classifier, we end up choosing a classifer that "hulluncinates" (also known as overfitting). Commonly this is recognized when you get a 100% accuracy on your training data and a significantly lower amount on your testing dataset.
+
+This occurs in other forms too and generalizes to bias and varience.
+
+Bias is a learners tendency to consistently learn the wrong thing. Varience is the tendency to learning random things irrespective of the real signal.
+
+Cross validation &  regularization & other methods can be used to combat overfitting.
+
+Another problem in machine learning is the curse of dimensionality. Generalizing becomes exponentially harder as the dimensionality grows assuming the training size remains the same.
+
+*[I won't speak too mcuh about theoretical guarantees. The main concepts that I took from this section is that in practice you will not get a specific guarantee and it's quite easy to disprove because of the no free lunch theorm. The main role of theortivcal guarantees in machine learning is n used more as a source of understanding for algorithm design.]*
 
 
 ----
