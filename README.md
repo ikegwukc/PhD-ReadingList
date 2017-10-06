@@ -3,11 +3,14 @@
 
 ## Table of Contents
 
-- Foundational
-- Application
-- Tutorials
+- [Foundational
+  - [The Discipline of Machine Learning](https://github.com/ikegwukc/PhD-ReadingList#foundational)
+- [Application](https://github.com/ikegwukc/PhD-ReadingList#application)
+- [Tutorials](https://github.com/ikegwukc/PhD-ReadingList#tutorials)
 
 ## Foundational
+
+----
 #### [The Discipline of Machine Learning by Tom M Mitchell](http://www.cs.cmu.edu/~tom/pubs/MachineLearning.pdf)
 
 This document provides a brief and personal view of machine learning. Good to think of this paper as a foundational paper for machine learning.
@@ -33,3 +36,8 @@ Current Research Questions (2006+):
 - Can we use machine learning theories and algorithms to help explain human learning?
 - Can we design programming languages containing machine learning primitives? (LBJava?; SML?)
 - Will computer perception merge with machine learning?ZZ
+----
+
+## Application
+
+## Tutorials
