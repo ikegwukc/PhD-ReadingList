@@ -62,8 +62,7 @@ Here are examples for classifiers:
 
 | Representation | Evaluation | Optimization |
 | -------------- | ---------- | ------------ |
-
-| Knn             | Accuracy / error rate | Greedy Search |  
+| Knn | Accuracy / error rate | Greedy Search |  
 | SVM             | Precision and recall | Beam Search Search |  
 | Decision trees  | Likelihood | Continous Optimization|  
 | Neural Networks | Cost / Utility | Gradient descent |  
