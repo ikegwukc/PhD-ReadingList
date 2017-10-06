@@ -54,7 +54,7 @@ They're thousands of frameworks to follow however they all consist of combinatio
 - Evaluation - An evaluation function that distingiushes a good model from a bad one.
 - Optimization - A method to search among the classifiers in the potential representations for the highest-scoring one.  
 
-Here are examples for classifiers:
+Here are examples for classifiers:  
 | Representation | Evaluation | Optimization |  
 | --- | --- | --- |  
 | Knn | Accuracy / error rate | Greedy Search |  
